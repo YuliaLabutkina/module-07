@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>module-07</title>
+</head>
+
+<body>
+
+    <!-- HEDER -->
+
+    <header>
+        <nav class="page-navigation container">
+            <h1 class="page-logo"><a href="#" class="page-logo__link">Golden</a></h1>
+            <ul class="page-navigation__menu">
+                <li class="page-navigation__menu-item"><a href="#" class="page-navigation__menu-link">Home</a></li>
+                <li class="page-navigation__menu-item"><a href="#services"
+                        class="page-navigation__menu-link">Services</a></li>
+                <li class="page-navigation__menu-item"><a href="#" class="page-navigation__menu-link">Portfolio</a></li>
+                <li class="page-navigation__menu-item"><a href="#" class="page-navigation__menu-link">About</a></li>
+                <li class="page-navigation__menu-item"><a href="#contact" class="page-navigation__menu-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- SECTION SERVICES -->
+        <section class="services container" id="services">
+            <h2 class="services__title">Services</h2>
+            <p class="services__text">Proin iaculis purus consequat sem cure.</p>
+            <ul class="services__list">
+                <li class="services__list-item">
+                    <h3 class="services__list-title">E-Commerce</h3>
+                    <p class="services__list-text">Proin iaculis purus consequat sem cure
+                        digni ssim. Donec porttitora entum suscipit
+                        aenean rhoncus posuere odio in tincidunt.</p>
+                </li>
+                <li class="services__list-item">
+                    <h3 class="services__list-title">Responsive Web</h3>
+                    <p class="services__list-text">Proin iaculis purus consequat sem cure
+                        digni ssim. Donec porttitora entum suscipit
+                        aenean rhoncus posuere odio in tincidunt.</p>
+                </li>
+                <li class="services__list-item">
+                    <h3 class="services__list-title">Web Security</h3>
+                    <p class="services__list-text">Proin iaculis purus consequat sem cure
+                        digni ssim. Donec porttitora entum suscipit
+                        aenean rhoncus posuere odio in tincidunt.</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- SECTION FOOTER -->
+
+    <footer>
+        <form action="#" class="contact container" id="contact">
+            <section>
+                <h2 class="contact__title">Contact us</h2>
+                <p class="contact__text">Proin iaculis purus consequat sem cure.</p>
+                <div class="contact__form">
+                    <div class="contact__form-list">
+                        <input name="user_name" type="text" class="contact__form-name" placeholder="your name *"
+                            required minlength="2">
+                        <input name="user_email" type="email" class="contact__form-email" placeholder="your e-mail *"
+                            required>
+                        <input name="user_subject" type="text" class="contact__form-subject" placeholder="subject">
+                    </div>
+                    <textarea name="user_message" class="contact__form-textarea" placeholder="your message *" required
+                        minlength="10"></textarea>
+                </div>
+                <button type="submit" class="contact__button">Send Message</button>
+            </section>
+        </form>
+    </footer>
+</body>
+
+</html>
