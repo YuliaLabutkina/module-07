@@ -235,10 +235,8 @@ div.contact__form {
 }
 
 div.contact__form-list {
-  height: 212px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .contact__form-list input {
@@ -249,8 +247,12 @@ div.contact__form-list {
   padding: 0 0 0 18px;
 }
 
+.contact__form-list input:not(:last-child) {
+  margin-bottom: 28px;
+}
+
 .contact__form-textarea {
-  flex-basis: 455px;
+  width: 455px;
   resize: none;
   padding: 18px 0 0 18px;
   border-radius: 2px;
