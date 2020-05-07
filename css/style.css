@@ -289,8 +289,6 @@ div.contact__form-list {
 .contact__button {
   display: block;
   margin: 0 auto;
-  width: 240px;
-  height: 66px;
   border-radius: 3px;
   border: none;
   background-color: #fed136;
@@ -300,5 +298,5 @@ div.contact__form-list {
   color: #ffffff;
   font-weight: 700;
   text-transform: uppercase;
-  padding: 0;
+  padding: 22px 45px;
 }
