@@ -115,7 +115,7 @@ li.page-navigation__menu-item:last-of-type {
   color: #fed136;
 }
 
-main {
+section.services {
   margin-bottom: 120px;
 }
 
@@ -198,7 +198,7 @@ p.services__list-text {
   margin: 0;
 }
 
-footer {
+section.contact-us {
   height: 677px;
   background: url(../img/map-image.png), #222222;
   background-repeat: no-repeat;
