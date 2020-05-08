@@ -199,11 +199,10 @@ p.services__list-text {
 }
 
 section.contact {
-  height: 677px;
   background: url(../img/map-image.png), #222222;
   background-repeat: no-repeat;
   background-position: 100% 80%;
-  padding-top: 106px;
+  padding: 106px 0 103px;
 }
 
 h2.contact__title {
@@ -239,11 +238,20 @@ div.contact__form-list {
   flex-direction: column;
 }
 
-.contact__form-list input {
-  height: 52px;
+.contact__form-list input,
+.contact__form-textarea {
+  font-size: 0.875rem;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  font-family: var(--main-font);
   width: 455px;
   border: none;
   border-radius: 2px;
+}
+
+.contact__form-list input {
+  height: 52px;
   padding: 0 0 0 18px;
 }
 
@@ -252,10 +260,7 @@ div.contact__form-list {
 }
 
 .contact__form-textarea {
-  width: 455px;
-  resize: none;
   padding: 18px 0 0 18px;
-  border-radius: 2px;
 }
 
 .contact__form-textarea::placeholder,
