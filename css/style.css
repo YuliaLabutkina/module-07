@@ -261,6 +261,7 @@ div.contact__form-list {
 
 .contact__form-textarea {
   padding: 18px 0 0 18px;
+  resize: none;
 }
 
 .contact__form-textarea::placeholder,
